@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
+}
+:root {
+    --main-bg-color: #2874f0;
+  }
+header{
+    background-color: var(--main-bg-color);
+    
+}
+nav{
+    height: 58px;
+    margin: auto;
+    max-width:70vw ;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.logo img{
+    height: 18px;
+}
+.search{
+    margin: 0 12px;
+    border-radius: 2px;
+    background: white;
+    padding: 4px;
+
+}
+.search input{
+    height: 12px;
+    width: 400px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    margin: 0 2px;
+}
+.search img{
+    height: 22px;
+}
+.links{
+}
+.links p{
+    margin: 8px ;
+    color: white;
+}
+.cart{
+    color: white;
+}
+.cart img{
+    filter: invert(100%);
+    height: 28px;
+}
+.container{
+    min-height: calc(100vh - 58px - 58px);
+}
+.slider{
+    margin: 4px auto;
+}
+.card-container{
+    max-width: 75vw;    
+    margin: 8px auto;
+}
+
+.card{
+    margin: 4px ;
+}
+.card-item{
+    margin: 4px 8px;
+}
+footer{
+    height: 58px;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+a{
+    padding: 12px;
+    color: white;
+}
+/* @media screen and (max-width: 982px) {
+    body {
+      background-color: lightgreen;
+    }
+    nav{
+        display: none;
+    }
+  } */
+  
